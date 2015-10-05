@@ -65,7 +65,7 @@ bool binarySearch(int value, int values[], int n)
  *  Insertion Sort
  **/
  
-void insertionSort(int array[]; int size)
+void insertionSort(int array[], int size)
 {
     //Iterate through the array
     for (int i = 0; i < size - 1; i++)
@@ -75,11 +75,11 @@ void insertionSort(int array[]; int size)
         int position = i;
         
         //Grab the smallest number in the array and swap it to the left
-        while ((position > 0) && (array[position - 1] > element)
+        while ((position > 0) && (array[position - 1] > element))
         {
             array[position] = array[position - 1];
             position = position - 1;
-            array[position] = element
+            array[position] = element;
         }
     }
 }
